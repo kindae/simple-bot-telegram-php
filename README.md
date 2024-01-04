@@ -18,7 +18,7 @@
 
 <p>Voilà, cherche un espace dans ton serveur, tu peux créer répertoire nommé "mon_bot_telegram" et à l'intérieur tu crée un fichier nommé exemple "main.php"</p>
 
-<p>On va utiliser le webhook de telegram pour confirmer que ton fichier est rattaché à votre bot telegram, pour ça il faut envoyer ceci dans n'importe quel navigateur : https://api.telegram.org/bot-ici-ton-token/setWebhook?url=-ici-ton-lien-de-fichier</p>
+<p>On va utiliser le webhook de telegram pour confirmer que ton fichier est rattaché à votre bot telegram, pour ça il faut envoyer ceci dans n'importe quel navigateur : https://api.telegram.org/bot-ici-ton-token/setWebhook?url=ici-ton-lien-de-fichier</p>
 
 <p>exemple : https://api.telegram.org/bot6271740563:AAEdUm4Smyu4TpFqrQwbpTTMOeVozkDT-8/setWebhook?url=https://newinformatique24.com/bots/telegram/brain.php</p>
 
