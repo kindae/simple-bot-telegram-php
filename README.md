@@ -14,3 +14,14 @@ C'est grâce à ce token que tu peux manipuler ton bot, grâce à ce token tu va
 
 Voilà, cherche un espace dans ton serveur, tu peux créer répertoire nommé "mon_bot_telegram" et à l'intérieur tu crée un fichier nommé exemple "main.php"
 
+On va utiliser le webhook de telegram pour confirmer que ton fichier est rattaché à votre bot telegram, pour ça il faut envoyer ceci dans n'importe quel navigateur : https://api.telegram.org/bot<<ici ton token>>/setWebhook?url=<<ici ton lien de fichier>>
+
+et si tout est bien la réponse sera :
+
+{
+	"ok": true,
+	"result": true,
+	"description": "Webhook was set"
+}
+
+C'est qui veut dire oui, mon bot est relier à mon fichier (qui sera notre cerveau du bot)
